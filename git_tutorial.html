@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> Ini tutorial GIT</h1>
+	<h2><strong>membuat direktori lokal</strong></h2>
+	<p>git init, ini inisialisasi</p>
+	<p>git --global user.name "kadek", membuat user di working direktori </p>
+	<p>git --global user.email "kdek@hotmail.com", membuat email di working direktori</p>
+	<p>menambahkan file ke working direktori, contoh: tutorial_git.html</p>
+	<p>git add nama_file, jika banyak menggunakan "git add ." membuat file ke staging index</p>
+	<p>git commit -m "keterangan commit", boleh tidak ditambahkan -m jika keterangannya panjang. nanti text editor akan muncul untuk memasukkan keterangannya</p>
+
+	<h2><strong>meremot dan mengepush ke repositori github</strong></h2>
+	<p>git remote add github htpps://nama_situs, untuk github bisa di isi dengan nama keinginan. ada dua cara menggunakan https atau ssh. tutorial ini menggunakan https</p>
+	<p>git push github master, ini mengupload ke github dengan branch utama yaitu master</p>
+
+	<h2><strong>mengepull atau fetch dari github ke lokal</strong></h2>
+	<p>persiapkan direktori lokal</p>
+	<p>git init, ini inisialisasi</p>
+	<p>git --global user.name "kadek", membuat user di working direktori </p>
+	<p>git --global user.email "kdek@hotmail.com", membuat email di working direktori</p>
+	<p>git remote add github htpps://nama_situs, untuk github bisa di isi dengan nama keinginan. ada dua cara menggunakan https atau ssh. tutorial ini menggunakan https</p>
+	<p>git pull github master, atau git fetch github master. perbedaannya pull digunakan jika file lokal tidak memiliki commit baru, kalau fetch digunakan jika file lokal memiliki commit terbaru </p>
+</body>
+</html>
